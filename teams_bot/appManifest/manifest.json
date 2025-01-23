@@ -1,0 +1,52 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.13/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.13",
+  "version": "1.0.0",
+  "id": "857f3c94-377c-4e95-9b9b-32beb9e4a171",
+  "packageName": "com.microsoft.teams.meetingstranscription",
+  "developer": {
+    "name": "Felix Reynoso",
+    "websiteUrl": "https://felixreynoso.ca",
+    "privacyUrl": "https://www.microsoft.com/privacy",
+    "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "CEREBRO",
+    "full": "CEREBRO"
+  },
+  "description": {
+    "short": "Display meeting transcripts using Microsoft Graph API in a Teams task module.",
+    "full": "This sample app retrieves meeting transcripts via the Graph API and showcases them in a task module."
+  },
+  "accentColor": "#235EA5",
+  "bots": [
+    {
+      "botId": "857f3c94-377c-4e95-9b9b-32beb9e4a171",
+      "scopes": ["groupchat"],
+      "isNotificationOnly": true
+    }
+  ],
+  "validDomains": [
+    "aebd-205-250-24-46.ngrok-free.app",
+    "aebd-205-250-24-46.ngrok-free.app"
+  ],
+  "permissions": ["messageTeamMembers"],
+  "webApplicationInfo": {
+    "id": "857f3c94-377c-4e95-9b9b-32beb9e4a171",
+    "resource": "https://RscPermission"
+  },
+  "authorization": {
+    "permissions": {
+      "resourceSpecific": [
+        {
+          "name": "OnlineMeeting.ReadBasic.Chat",
+          "type": "Application"
+        }
+      ]
+    }
+  }
+}
