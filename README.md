@@ -6,11 +6,11 @@ Screenshots:
 
 ## App UI
 
-![screen 2](./screen2.png)
+![screen 1](./screen1.png)
 
 ## Installation
 
-![screen 1](./screen1.png)
+![screen 2](./screen2.png)
 
 ## Backend API
 
